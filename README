@@ -1,0 +1,9 @@
+Use this command to run the backend api: uvicorn app:app --reload
+
+
+test api: curl -X POST "http://127.0.0.1:8000/process_text/" \ -H "Content-Type: application/json" \ -d '{"text": "This is an example text", "task": "grammar_correction"}'
+
+
+npm start to start the react app
+
+
