@@ -1,12 +1,13 @@
-import streamlit as st
+#version1
+# import streamlit as st
 import requests
 
 st.title("Virtual Writing Assistant")
 
 # Input text area
-text = st.text_area("Enter your text:")
+text = st.text_area("Enter your text here:")
 
-# Task selection
+# Task selection theough fropdown
 task = st.selectbox("Choose a task:", ["grammar_correction", "style_enhancement", "tone_adjustment"])
 
 # Button to process text

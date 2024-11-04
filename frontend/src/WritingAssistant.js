@@ -1,3 +1,4 @@
+//version1
 import React, { useState } from 'react';
 import axios from 'axios';
 import './WritingAssistant.css';
@@ -9,6 +10,7 @@ function WritingAssistant() {
     const [error, setError] = useState('');
     const [loading, setLoading] = useState(false);
 
+    //Text processing
     const handleProcessText = async () => {
         setLoading(true);
         setError('');
